@@ -1,3 +1,5 @@
+app @ application
+
 app:setBackgroundColor(0x323232)
 
 local sw = app:getContentWidth()
