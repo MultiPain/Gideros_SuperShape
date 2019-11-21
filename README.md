@@ -7,13 +7,14 @@ An implementation of [Superellipse](https://en.wikipedia.org/wiki/Superellipse")
 # Usage
 
 ```lua
-local shape = SuperShape.new(type, [color, numberOfPoints])
+local shape = SuperShape.new([type, color, numberOfPoints])
 ```
 
 1. type(string): one of SuperShape's types:
   - SuperShape.SHAPE - Supershape
   - SuperShape.ELLIPSE - Superellipse
   - SuperShape.CIRCLE - Regular circle
+  [default: SuperShape.SHAPE]
 2. color(number): shape color [default: 0xffffff]
 3. numberOfPoints(number): Number of edge points [default: 128]
 
