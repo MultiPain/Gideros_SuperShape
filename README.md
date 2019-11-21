@@ -22,8 +22,8 @@ local shape = SuperShape.new(type, [color, numberOfPoints])
 shape:build(params)
 ```
 params - a set of params that depends on shape type
-```
-SuperShape.SHAPE - r, a, b, m, n1, n2, n3 (see [Supershape](http://paulbourke.net/geometry/supershape/)  for more detail)
-SuperShape.ELLIPSE - a, b, m, n (see [Superellipse](https://en.wikipedia.org/wiki/Superellipse")  for more detail)
-SuperShape.CIRCLE - r (radius)
-```
+
+1. SuperShape.SHAPE - r, a, b, m, n1, n2, n3 (see [Supershape](http://paulbourke.net/geometry/supershape/)  for more detail)
+2. SuperShape.ELLIPSE - a, b, m, n (see [Superellipse](https://en.wikipedia.org/wiki/Superellipse")  for more detail)
+3. SuperShape.CIRCLE - r (radius)
+
