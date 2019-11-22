@@ -5,6 +5,7 @@ SuperShape = Core.class(Mesh)
 SuperShape.SHAPE = "Shape"
 SuperShape.ELLIPSE = "Ellipse"
 SuperShape.CIRCLE = "Circle"
+SuperShape.HEART = "Heart"
 
 local function sign(v) return v < 0 and -1 or v > 0 and 1 or 0 end
 
@@ -72,6 +73,16 @@ function SuperShape:buildCircle(theta, r)
 	
 	local x = r * cosa
 	local y = r * sina
+	
+	return x, y
+end
+--
+function SuperShape:buildHeart(theta, r)
+	local cosa = cos(theta)
+	local sina = sin(theta)
+	
+	local x = r * 16 * sina^3
+	local y = r * -(13 * cosa - 5*cos(2*theta)-2*cos(3*theta)-cos(4*theta))
 	
 	return x, y
 end
