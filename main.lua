@@ -1,5 +1,3 @@
-app @ application
-
 app:setBackgroundColor(0x323232)
 
 local sw = app:getContentWidth()
@@ -20,6 +18,11 @@ sc:build(25)
 sc:setPosition(sw /2 , sh / 2)
 stage:addChild(sc)
 
+local hh = SuperShape.new(SuperShape.HEART, 0xff0000, 200)
+hh:build(25)
+hh:setPosition(sw /2 , sh / 4)
+stage:addChild(hh)
+
 local v = 0
 function animate(e)
 	local dt = e.deltaTime
@@ -34,6 +37,7 @@ function animate(e)
 	el:build(100, 70, norms*2, normc)
 	ss:build(100, 1, 1, 5, norms+0.2,1.7,1.7)
 	sc:build(25 + norms*25)
+	hh:build(1 + norms*2)
 end
 --
 
