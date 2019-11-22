@@ -27,5 +27,5 @@ params - a set of params that depends on shape type
 1. SuperShape.SHAPE - r, a, b, m, n1, n2, n3 (see [Supershape](http://paulbourke.net/geometry/supershape/)  for more detail)
 2. SuperShape.ELLIPSE - a, b, m, n (see [Superellipse](https://en.wikipedia.org/wiki/Superellipse")  for more detail)
 3. SuperShape.CIRCLE - r (radius)
-4. SuperShape.HEART - r (radius)
+4. SuperShape.HEART - r (radius SCALE)
 
