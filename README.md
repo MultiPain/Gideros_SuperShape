@@ -1,6 +1,6 @@
 # Gideros_SuperShape
 
-![alt text](https://github.com/MultiPain/Gideros_SuperShape/blob/master/SuperShape.jpg)
+![SuperShape_prview](https://github.com/MultiPain/Gideros_SuperShape/blob/master/SuperShape_prview.jpg)
 
 An implementation of [Superellipse](https://en.wikipedia.org/wiki/Superellipse) and [Supershapes](http://paulbourke.net/geometry/supershape/). 
 
